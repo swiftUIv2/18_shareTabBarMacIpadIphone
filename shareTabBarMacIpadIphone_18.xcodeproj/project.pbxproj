@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B504F17F25CAED5300B8B81D /* shareTabBarMacIpadIphone_18App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504F16C25CAED5200B8B81D /* shareTabBarMacIpadIphone_18App.swift */; };
+		B504F18025CAED5300B8B81D /* shareTabBarMacIpadIphone_18App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504F16C25CAED5200B8B81D /* shareTabBarMacIpadIphone_18App.swift */; };
+		B504F18125CAED5300B8B81D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504F16D25CAED5200B8B81D /* ContentView.swift */; };
+		B504F18225CAED5300B8B81D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504F16D25CAED5200B8B81D /* ContentView.swift */; };
+		B504F18325CAED5300B8B81D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B504F16E25CAED5300B8B81D /* Assets.xcassets */; };
+		B504F18425CAED5300B8B81D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B504F16E25CAED5300B8B81D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B504F16C25CAED5200B8B81D /* shareTabBarMacIpadIphone_18App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shareTabBarMacIpadIphone_18App.swift; sourceTree = "<group>"; };
+		B504F16D25CAED5200B8B81D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B504F16E25CAED5300B8B81D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B504F17325CAED5300B8B81D /* shareTabBarMacIpadIphone_18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shareTabBarMacIpadIphone_18.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B504F17625CAED5300B8B81D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B504F17B25CAED5300B8B81D /* shareTabBarMacIpadIphone_18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shareTabBarMacIpadIphone_18.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B504F17D25CAED5300B8B81D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B504F17E25CAED5300B8B81D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B504F17025CAED5300B8B81D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B504F17825CAED5300B8B81D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B504F16625CAED5100B8B81D = {
+			isa = PBXGroup;
+			children = (
+				B504F16B25CAED5200B8B81D /* Shared */,
+				B504F17525CAED5300B8B81D /* iOS */,
+				B504F17C25CAED5300B8B81D /* macOS */,
+				B504F17425CAED5300B8B81D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B504F16B25CAED5200B8B81D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B504F16C25CAED5200B8B81D /* shareTabBarMacIpadIphone_18App.swift */,
+				B504F16D25CAED5200B8B81D /* ContentView.swift */,
+				B504F16E25CAED5300B8B81D /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B504F17425CAED5300B8B81D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B504F17325CAED5300B8B81D /* shareTabBarMacIpadIphone_18.app */,
+				B504F17B25CAED5300B8B81D /* shareTabBarMacIpadIphone_18.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B504F17525CAED5300B8B81D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B504F17625CAED5300B8B81D /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		B504F17C25CAED5300B8B81D /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				B504F17D25CAED5300B8B81D /* Info.plist */,
+				B504F17E25CAED5300B8B81D /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B504F17225CAED5300B8B81D /* shareTabBarMacIpadIphone_18 (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B504F18725CAED5300B8B81D /* Build configuration list for PBXNativeTarget "shareTabBarMacIpadIphone_18 (iOS)" */;
+			buildPhases = (
+				B504F16F25CAED5300B8B81D /* Sources */,
+				B504F17025CAED5300B8B81D /* Frameworks */,
+				B504F17125CAED5300B8B81D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "shareTabBarMacIpadIphone_18 (iOS)";
+			productName = "shareTabBarMacIpadIphone_18 (iOS)";
+			productReference = B504F17325CAED5300B8B81D /* shareTabBarMacIpadIphone_18.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B504F17A25CAED5300B8B81D /* shareTabBarMacIpadIphone_18 (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B504F18A25CAED5300B8B81D /* Build configuration list for PBXNativeTarget "shareTabBarMacIpadIphone_18 (macOS)" */;
+			buildPhases = (
+				B504F17725CAED5300B8B81D /* Sources */,
+				B504F17825CAED5300B8B81D /* Frameworks */,
+				B504F17925CAED5300B8B81D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "shareTabBarMacIpadIphone_18 (macOS)";
+			productName = "shareTabBarMacIpadIphone_18 (macOS)";
+			productReference = B504F17B25CAED5300B8B81D /* shareTabBarMacIpadIphone_18.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B504F16725CAED5100B8B81D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B504F17225CAED5300B8B81D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					B504F17A25CAED5300B8B81D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = B504F16A25CAED5100B8B81D /* Build configuration list for PBXProject "shareTabBarMacIpadIphone_18" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B504F16625CAED5100B8B81D;
+			productRefGroup = B504F17425CAED5300B8B81D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B504F17225CAED5300B8B81D /* shareTabBarMacIpadIphone_18 (iOS) */,
+				B504F17A25CAED5300B8B81D /* shareTabBarMacIpadIphone_18 (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B504F17125CAED5300B8B81D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B504F18325CAED5300B8B81D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B504F17925CAED5300B8B81D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B504F18425CAED5300B8B81D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B504F16F25CAED5300B8B81D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B504F18125CAED5300B8B81D /* ContentView.swift in Sources */,
+				B504F17F25CAED5300B8B81D /* shareTabBarMacIpadIphone_18App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B504F17725CAED5300B8B81D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B504F18225CAED5300B8B81D /* ContentView.swift in Sources */,
+				B504F18025CAED5300B8B81D /* shareTabBarMacIpadIphone_18App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B504F18525CAED5300B8B81D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B504F18625CAED5300B8B81D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B504F18825CAED5300B8B81D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YP5DUU8MU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emm.shareTabBarMacIpadIphone-18";
+				PRODUCT_NAME = shareTabBarMacIpadIphone_18;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B504F18925CAED5300B8B81D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YP5DUU8MU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emm.shareTabBarMacIpadIphone-18";
+				PRODUCT_NAME = shareTabBarMacIpadIphone_18;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B504F18B25CAED5300B8B81D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4YP5DUU8MU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emm.shareTabBarMacIpadIphone-18";
+				PRODUCT_NAME = shareTabBarMacIpadIphone_18;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B504F18C25CAED5300B8B81D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4YP5DUU8MU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emm.shareTabBarMacIpadIphone-18";
+				PRODUCT_NAME = shareTabBarMacIpadIphone_18;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B504F16A25CAED5100B8B81D /* Build configuration list for PBXProject "shareTabBarMacIpadIphone_18" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B504F18525CAED5300B8B81D /* Debug */,
+				B504F18625CAED5300B8B81D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B504F18725CAED5300B8B81D /* Build configuration list for PBXNativeTarget "shareTabBarMacIpadIphone_18 (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B504F18825CAED5300B8B81D /* Debug */,
+				B504F18925CAED5300B8B81D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B504F18A25CAED5300B8B81D /* Build configuration list for PBXNativeTarget "shareTabBarMacIpadIphone_18 (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B504F18B25CAED5300B8B81D /* Debug */,
+				B504F18C25CAED5300B8B81D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B504F16725CAED5100B8B81D /* Project object */;
+}
