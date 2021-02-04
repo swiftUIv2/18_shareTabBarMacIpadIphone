@@ -6,4 +6,4 @@
 
 
 
-<img src="/light1.PNG" width="1920" height="1080"/> 
+<img src="/light1.PNG" width="2504" height="2262"/> 
