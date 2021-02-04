@@ -4,7 +4,7 @@
 
 
 
-<img src="/light.png" width="1000" height="720"/> 
+<img src="/light.png" width="800" height="720"/> 
 
 
 
